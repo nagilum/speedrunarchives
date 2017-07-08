@@ -1,0 +1,129 @@
+[
+    {
+        "games": [
+            {
+                "title": "MDK",
+                "platforms": [
+                    {
+                        "name": "PC",
+                        "year": 1997
+                    }
+                ]
+            }
+        ],
+        "category": "Any%",
+        "runners": [
+            {
+                "name": "psychoripper",
+                "length": "38:29"
+            }
+        ],
+        "video": "https://www.youtube.com/watch?v=fVW3_4z2_No",
+        "thumbnail": "https://i.ytimg.com/vi/fVW3_4z2_No/hqdefault.jpg",
+        "skip": "&t=9m19s",
+        "start": "09:19",
+        "length": "00:38:29",
+        "event": "SGDQ 2017",
+        "donationsCurrency": "USD",
+        "donationsAtStart": 141382,
+        "donationsAtEnd": 143117
+    },
+    {
+        "games": [
+            {
+                "title": "Castlevania: Rondo of Blood",
+                "platforms": [
+                    {
+                        "name": "Wii VC",
+                        "year": 2010
+                    }
+                ]
+            }
+        ],
+        "category": "Maria (NG+)",
+        "runners": [
+            {
+                "name": "skavenger216",
+                "length": "16:04"
+            },
+            {
+                "name": "komrade",
+                "length": "16:17"
+            }
+        ],
+        "video": "https://www.youtube.com/watch?v=WOKkDRx30rk",
+        "thumbnail": "https://i.ytimg.com/vi/WOKkDRx30rk/hqdefault.jpg",
+        "skip": "&t=37s",
+        "start": "00:37",
+        "length": "00:16:17",
+        "event": "AGDQ 2017",
+        "donationsCurrency": "USD",
+        "donationsAtStart": 498769,
+        "donationsAtEnd": 500402
+    },
+    {
+        "games": [
+            {
+                "title": "Super Mario Maker",
+                "platforms": [
+                    {
+                        "name": "WiiU",
+                        "year": 2015
+                    }
+                ]
+            }
+        ],
+        "category": "Custom Level Blind Race",
+        "runners": [
+            {
+                "name": "linkdeadx2",
+                "length": "00:38:58",
+                "team": "Stacked Like Bowsers"
+            },
+            {
+                "name": "Andy",
+                "length": "01:00:42",
+                "team": "Ain't Easy Bein' Cheesy"
+            },
+            {
+                "name": "mitchflowerpower",
+                "length": "01:00:42",
+                "team": "Ain't Easy Bein' Cheesy"
+            },
+            {
+                "name": "area51",
+                "length": "01:00:42",
+                "team": "Ain't Easy Bein' Cheesy"
+            },
+            {
+                "name": "bismuth",
+                "length": "00:38:58",
+                "team": "Stacked Like Bowsers"
+            },
+            {
+                "name": "Dram55",
+                "length": "00:38:58",
+                "team": "Stacked Like Bowsers"
+            },
+            {
+                "name": "trihex",
+                "length": "01:00:42",
+                "team": "Ain't Easy Bein' Cheesy"
+            },
+            {
+                "name": "TheMexicanRunner",
+                "length": "00:38:58",
+                "team": "Stacked Like Bowsers"
+            }
+        ],
+        "video": "https://www.youtube.com/watch?v=OmwL6CyNReI",
+        "thumbnail": "https://i.ytimg.com/vi/OmwL6CyNReI/hqdefault.jpg",
+        "skip": "&t=27m40s",
+        "start": "27:40",
+        "length": "01:00:42",
+        "event": "AGDQ 2016",
+        "donationsCurrency": "USD",
+        "donationsAtStart": 392587,
+        "donationsAtEnd": 418867
+    }
+]

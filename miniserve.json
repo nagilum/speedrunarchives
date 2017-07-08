@@ -1,0 +1,33 @@
+{
+  "port": 80,
+  "path": "build",
+  "automations": [
+    {
+      "tagName": "css",
+      "type": "less",
+      "minify": true,
+      "sourceFiles": [
+        "source/less/*.less"
+      ]
+    },
+    {
+      "tagName": "js",
+      "type": "js",
+      "minify": true,
+      "sourceFiles": [
+        "source/js/libs/*.js",
+        "source/js/*.js"
+      ]
+    },
+    {
+      "tagName": "html",
+      "type": "html",
+      "minify": false,
+      "sourceFiles": [
+        "source/html/index.html"
+      ],
+      "destFile": "build/index.html",
+      "parseTags": true
+    }
+  ]
+}
