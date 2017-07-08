@@ -7,7 +7,7 @@
       "type": "less",
       "minify": true,
       "sourceFiles": [
-        "source/less/*.less"
+        "source/less/app.less"
       ]
     },
     {
@@ -15,8 +15,8 @@
       "type": "js",
       "minify": true,
       "sourceFiles": [
-        "source/js/libs/*.js",
-        "source/js/*.js"
+        "source/js/libs/jk/jk.js",
+        "source/js/app.js"
       ]
     },
     {
