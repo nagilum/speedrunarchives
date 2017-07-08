@@ -16,6 +16,7 @@
       "minify": true,
       "sourceFiles": [
         "source/js/libs/jk/jk.js",
+        "source/js/libs/tools/tools.js",
         "source/js/app.js"
       ]
     },

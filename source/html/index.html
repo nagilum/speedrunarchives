@@ -4,14 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Speedrun Archives</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif">
         {{ css }}
     </head>
     <body>
-        <h1>Speedrun Archives</h1>
-
-        <input type="text" id="tbFilter">
-
-        <ul id="runs"></ul>
+        <article>
+            <h1>Speedrun Archives</h1>
+            <div class="input" id="filter-wrapper">
+                <input type="text" id="filter">
+                <label for="filter">Filter</label>
+            </div>
+            <ul id="runs"></ul>
+        </article>
 
         {{ js }}
     </body>

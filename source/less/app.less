@@ -1,3 +1,161 @@
+* {
+    box-sizing: border-box
+}
+
 body {
     background-color: #fff;
+    color: #000;
+    font-family: 'Droid Sans';
+    font-size: 13px;
+    line-height: 13px;
+    margin: 0;
+    padding: 0;
+
+    article {
+        margin: 0 auto;
+        width: 1204px;
+
+        div {
+            &.input {
+                height: 50px;
+                margin: 0 0 1px 0;
+                width: 300px;
+
+                label {
+                    font-size: 20px;
+                    height: 50px;
+                    margin: 0;
+                    padding: 20px 0 0 10px;
+                    position: absolute;
+                    transition: .25s;
+                    width: 300px;
+                    z-index: 10;
+                }
+
+                input[type=text] {
+                    &#filter {
+                        font-size: 20px;
+                        height: 50px;
+                        margin: 0;
+                        padding: 0 10px;
+                        position: absolute;
+                        width: 300px;
+                    }
+
+                    &:focus + label {
+                        color: #999;
+                        font-size: 9px;
+                        padding: 2px 0 0 10px;
+                    }
+                }
+
+                &.filled {
+                    label {
+                        color: #999;
+                        font-size: 9px;
+                        padding: 2px 0 0 10px;
+                    }
+                }
+            }
+        }
+
+        h1 {
+            font-family: 'Droid Serif';
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            padding: 20px 0;
+        }
+
+        ul {
+            &#runs {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    float: left;
+                    height: 300px;
+                    margin: 0 1px 1px 0;
+                    overflow: hidden;
+                    width: 300px;
+
+                    a {
+                        background-position: center;
+                        background-size: cover;
+                        cursor: pointer;
+                        display: block;
+                        height: 200px;
+                        opacity: .9;
+                        padding: 200px 0 0 0;
+                        text-decoration: none;
+                        transition: .25s;
+                        width: 100%;
+
+                        span {
+                            background-color: #ccc;
+                            color: #000;
+                            display: block;
+                            height: 100px;
+                            padding: 5px 5px 0 5px;
+                            text-decoration: none;
+                            transition: .25s;
+                            width: 100%;
+                        }
+
+                        &:hover {
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1204px) {
+    body {
+        article {
+            width: 100%;
+
+            div {
+                &.input {
+                    margin-top: 2px;
+                    width: 100%;
+
+                    label {
+                        width: 100%;
+                    }
+
+                    input[type=text] {
+                        &#filter {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            ul {
+                &#runs {
+                    li {
+                        width: 33.2%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    body {
+        article {
+            ul {
+                &#runs {
+                    li {
+                        width: 49.7%;
+                    }
+                }
+            }
+        }
+    }
 }
