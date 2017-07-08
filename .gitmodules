@@ -1,0 +1,3 @@
+[submodule "source/js/libs/jk"]
+	path = source/js/libs/jk
+	url = https://github.com/nagilum/jk
